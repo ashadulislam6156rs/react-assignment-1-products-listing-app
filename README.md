@@ -1,19 +1,12 @@
-# React assigment - 1 : Product listing App
+# React + Vite
 
-## Total points = 5
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Purpose of this assignment :
+Currently, two official plugins are available:
 
-- Testing students skills on
-  - creating, styling & mapping components
-  - props
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### [Click here to see the project demo](https://react-assignment-1-products-listing.netlify.app/)
+## Expanding the ESLint configuration
 
-### Assignment steps:
-
-- part 1: Create the Products component (point: 1)
-- part 2: Pass products data from the App.js to the Products component (point: 1)
-- part 3: In the Products component map the Product component based on the products data (point: 2)
-- part 4: Make all the necessary adjustment (styles, accessing props value etc.) in the Product component (point: 1)
-- finally check the project demo and try to match your one as much as possible
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
